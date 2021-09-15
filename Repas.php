@@ -21,6 +21,14 @@
             $this->numero = $numero ;
         }
 
+        public function getDate(){
+            return $this->date ;
+        }
+
+        public function setDate(){
+            $this->date = $date ;
+        }
+
     }
 
 ?>
